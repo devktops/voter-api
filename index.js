@@ -23,6 +23,9 @@ app.use(express.json());
 app.get("/", function (req, res) {
   res.json({hello: "KalaungTech"});
   return;
+});
+
+app.get("/seed", function (req, res) {
   // seed data
   const data = {
       "go": {

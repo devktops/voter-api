@@ -27,6 +27,7 @@ This template configures a single function, `api`, which is responsible for hand
 Install dependencies with:
 
 ```
+npm install -g serverless@^3.38.0
 npm install
 ```
 
